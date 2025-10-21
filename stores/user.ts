@@ -33,7 +33,7 @@ export const useUserStore = defineStore('user', {
 
     async deleteUser(id: User['id']) {
       const { $axios } = useNuxtApp()
-      const { data } = await $axios.delete(`${API}/${id}`)
+      const { data } = await $axios.delete(API, { data: { id } })
       return data
     },
   },

@@ -80,7 +80,7 @@ async function submit() {
 // delete
 function onDelete(u: User) {
   askConfirm(t('confirmDelete') as string, async () => {
-    await store.deleteUser(u.id) // axios DELETE
+    await store.deleteUser(u.id)
     await reloadUsers()
   })
 }
