@@ -1,0 +1,23 @@
+{
+  "title": "User Management",
+  "operation": "Operation",
+  "list": "List",
+  "name": "Name",
+  "age": "Age",
+  "actions": "Actions",
+  "create": "Create",
+  "update": "Update",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "save": "Save",
+  "createUser": "Create User",
+  "editUser": "Edit User",
+  "noData": "No data yet",
+  "confirm": "Confirm",
+  "confirmSubmit": "Are you sure to submit?",
+  "confirmCreate": "Are you sure to create?",
+  "confirmUpdate": "Are you sure to update?",
+  "confirmDelete": "Are you sure to delete this user?",
+  "placeholderName": "Enter name",
+  "placeholderAge": "Enter age"
+}

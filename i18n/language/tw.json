@@ -1,0 +1,23 @@
+{
+  "title": "使用者管理",
+  "operation": "操作",
+  "list": "列表",
+  "name": "名字",
+  "age": "年齡",
+  "actions": "操作",
+  "create": "新增",
+  "update": "修改",
+  "delete": "刪除",
+  "cancel": "取消",
+  "save": "儲存",
+  "createUser": "新增使用者",
+  "editUser": "編輯使用者",
+  "noData": "目前沒有資料",
+  "confirm": "確認",
+  "confirmSubmit": "確定要提交嗎？",
+  "confirmCreate": "確定要新增嗎？",
+  "confirmUpdate": "確定要修改嗎？",
+  "confirmDelete": "確定要刪除此使用者嗎？",
+  "placeholderName": "請輸入名字",
+  "placeholderAge": "請輸入年齡"
+}
