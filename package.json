@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "typecheck:watch": "vue-tsc --noEmit -w -p tsconfig.json"
   },
   "dependencies": {
     "@nuxt/image": "^1.11.0",

@@ -10,9 +10,13 @@ export default defineNuxtConfig({
     typeCheck: false,
   },
   runtimeConfig: {
+    apiTarget: process.env.API_TARGET || 'https://22375.wu.elitepro.ltd',
     public: {
-      apiBase: 'https://22375.wu.elitepro.ltd', //  baseUrl
+      apiBase: process.env.API_BASE || '/api',
     },
+  },
+  nitro: {
+    preset: process.env.VERCEL ? 'vercel' : undefined,
   },
   googleFonts: {
     display: 'swap',
